@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Portfolio</title>
+ <style>
+  body {
+   background-color: #f1f1f1;
+   font-family: Arial, sans-serif;
+  }
+  
+  header {
+   background-color: #4CAF50;
+   color: white;
+   padding: 30px;
+   text-align: center;
+   font-size: 30px;
+  }
+  
+  h1 {
+   font-size: 30px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+  }
+  
+  img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: auto;
+   border-radius: 50%;
+  }
+  
+  p {
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+  
+  a {
+   color: #4CAF50;
+   text-decoration: none;
+  }
+  
+  a:hover {
+   color: #4CAF50;
+   text-decoration: underline;
+  }
+  
+  table {
+   border-collapse: collapse;
+   width: 100%;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  }
+  
+  th, td {
+   text-align: left;
+   padding: 8px;
+   border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+   background-color:#f5f5f5
+  }
+  
+ </style>
+</head>
+<body>
+
+<header>
+ Sreenath Unnikrishnan
+</header>
+
+<img src="IMG_20231022_111418_248.jpg" alt="Sreenath Unnikrishnan">
+
+<h1>About Me</h1>
+<p>I am a student with experience in HTML, CSS, JavaScript, and Bootstrap. I have created several websites for clients and have worked on various projects. I am passionate about creating beautiful and responsive websites that are user-friendly.</p>
+
+<h1>Skills</h1>
+<table>
+<tr>
+<th>HTML</th>
+<td>Expert</td>
+</tr>
+<tr>
+<th>CSS</th>
+<td>Expert</td>
+</tr>
+<tr>
+<th>JavaScript</th>
+<td>Intermediate</td>
+</tr>
+<tr>
+<th>Bootstrap</th>
+<td>Intermediate</td>
+</tr>
+<tr>
+<th>ReactJS</th>
+<td>Beginner</td>
+</tr>
+<tr>
+<th>NodeJS</th>
+<td>Beginner</td>
+</tr>
+
+<h1>Projects</h1>
+
+<ul style="list-style-type:none">
+<li><a href="#">Project 1 - Responsive Website using HTML and CSS</a></li><br />
+<li><a href="#">Project 2 - E-commerce Website using Bootstrap and JavaScript</a></li><br />
+<li><a href="#">Project 3 - Portfolio Website using ReactJS and NodeJS</a></li><br />
+<li><a href="#">Project 4 - Blog Website using WordPress and PHP</a></li><br />
+<li><a href="#">Project 5 - Social Media Website using Django and Python</a></li><br />
+<li><a href="#">Project 6 - Online Learning Platform using Moodle and MySQL</a></li><br />
+<li><a href="#">Project 7 - Weather App using OpenWeatherMap API and jQuery</a></li><br />
+<li><a href="#">Project 8 - Calculator App using Vanilla JavaScript and CSS Grid Layouts</a></li><br />
+</ul>
+
+<h1>Resume</h1>
+
+<p>You can download my resume <a href="SREENATH s Resume-page-001.jpg">here.</a></p>
+
+<footer style="text-align:center">
+ Created by Sreenath Unnikrishnan
+</footer>
+
+</body>
